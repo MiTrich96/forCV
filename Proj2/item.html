@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flea-Market</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="images/title.png">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+   <!--START OPACITY-->
+   <div class="opacity__block"></div>
+   <!--END OPACITY-->
+   
+    <!--START REGISTER-->
+    
+    <div class="register__block">
+        <div class="register__wrap">
+            <div class="register__buttons__top">
+                <div class="button1__block"><a class="register__close"><img src="images/favicons/searchicons/close.png" alt=""></a></div>
+                <div class="button2__block"><a class="register__help">Help</a></div>
+            </div>
+            
+            <div class="register__logo"><img src="images/logo.png" alt=""></div>
+            
+            <div class="register__description">Buy and sell quickly, safely and locally. <br> It's time to flea-market!</div>
+            
+            <div class="register__quick">
+                <div class="quick__title">
+                    <div></div>
+                    <p>quickly connect with</p>
+                    <div></div>    
+                </div>
+                
+                <div class="quick__buttons">
+                    <div><a class="quick__facebook">Continue with facebook</a></div>
+                    <div><a class="quick__google">Continue with Google</a></div>
+                </div>
+            </div>
+            
+            <div class="register__use">
+                <div class="use__title">
+                    <div></div>
+                    <p>or use your mail</p>
+                    <div></div>
+                </div>
+                
+                <div class="use__buttons">
+                    <div><a class="use__sign">Sign Up</a></div>
+                    <div><a class="use__log">Log In</a></div>
+                </div>
+            </div>
+            
+            <div class="register__footer">
+                By clickng on "Sign up", you agree to the flea-market <a href="privacy/terms.html">Terms & Conditions</a> and <a href="privacy/privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+   
+    <!--END REGISTER-->
+   
+    <!--START SELLBLOCK-->
+    
+    <div class="sell__block">
+        <div class="sell__wrap">
+            <div class="close__block">
+                <a class="close__button"><img src="images/favicons/searchicons/close.png" alt=""></a>
+            </div>
+            
+            <div class="sell__important">
+                <div class="sell__title">What are you selling</div>
+
+                <div class="sell__categories">
+                    <div class="categories__title">Choose a category</div>
+
+                    <div class="categories__wrap">
+                        <ul>
+                            <li><a class="categories__links sell__item1">
+                                    <div class="first_link categories__images"><img src="images/favicons/searchicons/add.png" alt=""></div>
+                                </a></li>
+                            <li><a class="categories__links sell__item2">
+                                    <div class="second_link categories__images"><img src="images/favicons/searchicons/ball.png" alt=""></div>
+                                </a></li>
+                            <li><a class="categories__links sell__item3">
+                                    <div class="third_link categories__images"><img src="images/favicons/searchicons/car.png" alt=""></div>
+                                </a></li>
+                            <li><a class="categories__links sell__item4">
+                                    <div class="fourth_link categories__images"><img src="images/favicons/searchicons/fashion.png" alt=""></div>
+                                </a></li>
+                            <li><a class="categories__links sell__item5">
+                                    <div class="fifth_link categories__images"><img src="images/favicons/searchicons/house.png" alt=""></div>
+                                </a></li>
+                            <li><a  class="categories__links sell__item6">
+                                    <div class="sixth_link categories__images"><img src="images/favicons/searchicons/mobile.png" alt=""></div>
+                                </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="sell__photos">
+                        <div class="sell__photos__title">
+                        Photos    
+                        </div>
+
+                        <div class="photos__wrap">
+                            <a class="photoButton">
+                                <img src="images/favicons/image.png" alt="">
+                                <div class="photos__title">Drag and drop, or browse</div>
+                                <div class="photos__description">Upload up to 10 photos of what you're selling. Images must be in PNG or JPG format and under 5mb</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sell__details">
+                <div class="details__title">
+                    Want to add more details?
+                </div>
+                
+                <div class="details__photos">
+                    <img src="images/Avatar.jpg" alt="">
+                </div>
+                
+                <div class="details__data">
+                    <form class="details__form" action="">
+                        <div class="details__price">
+                            <label class="label__price" for="input__price">Price</label>
+                            <br>
+                            <div class="price__wrap">
+                                <input id="input__price" type="text">
+                                <p class="input__money">USD</p>
+
+                                <label for="checkbox__free" class="label__free">Free</label>
+                                <input id="checkbox__free" type="checkbox">
+                            </div>
+                        </div>
+                        
+                        <div class="details__title__item">
+                            <label class="lable__title" for="input__title">Title</label>
+                            <br>
+                            <input id="input__title" type="text">
+                        </div>
+                        
+                        <div class="details__description">
+                            <label class="label__description" for="input__description">Description</label>
+                            <br>
+                            <textarea name="inputDescription" id="input__description" cols="30" rows="10"></textarea>
+                            <div class="counter__symbols">
+                                <div class="symbols__count">0</div>
+                                <div class="max__symbols">/1500</div>
+                            </div>
+                        </div>
+                        
+                        <div class="button__done">
+                            <input type="submit" value="Done">
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="sell__devide"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!--END SELLBLOCK-->
+    
+    <!--START AUTORISATION-->
+    
+    <div class="autorisation__block">
+        <div class="autorisation__wrap">
+            <div class="autorisation__data">
+                <div class="autorisation__person">
+                    <a href="">
+                        <div class="autorisation__image">
+                            <img src="images/favicons/auto/person.png" alt="">
+                        </div>
+                        
+                        <div class="autorisation__title">
+                            Log in now
+                        </div>
+                        
+                        <div class="autorisation__description">
+                            You're not logged in
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="autorisation__info">
+                <ul>
+                    <li><a href="privacy/whoWe.html">
+                            <div class="info__image"><img src="images/favicons/auto/discover.png" alt=""></div>
+                            <div class="info__title">Discover</div>
+                        </a></li>
+                    <li><a href="privacy/whoWe.html">
+                            <div class="info__image"><img src="images/favicons/auto/about.png" alt=""></div>
+                            <div class="info__title">About Flex Market</div>
+                        </a></li>
+                    <li><a href="privacy/terms.html">
+                            <div class="info__image"><img src="images/favicons/auto/terms.png" alt=""></div>
+                            <div class="info__title">Terms and conditions</div>
+                        </a></li>
+                    <li><a href="privacy/privacy.html">
+                            <div class="info__image"><img src="images/favicons/auto/privacy.png" alt=""></div>
+                            <div class="info__title">Privacy Policy</div>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!--END AUTORISATION-->
+    
+    <!--START NAVBAR-->
+    
+    <header class="container">
+        <div class="navbar__wrap">
+            <div class="navbar__logo">
+                <a href="#">
+                <img src="images/logo.png" alt=""></a>
+            </div>
+            
+            <div class="navbar__search">   
+                <form method="post" action="">
+                    <input id="search__input" type="text">
+                </form>
+            </div>
+            
+            <div class="navbar__buttons">
+                <ul>
+                    <li class="button__sell">
+                    <a class="buttonSell">Sell</a></li>
+                    <li class="button__log"><a class="register">Log In</a></li>
+                </ul>
+            </div>
+            
+            <div class="navbar__list">
+                <a class="logIn"></a>
+            </div>
+        </div>
+    </header>
+    
+    <!--END NAVBAR-->
+    
+    <!--START INFORMATION-->
+    
+    <div class="container">
+        <div class="information__wrap">
+            <div class="information__image">
+                <a href="">
+                    <img src="images/Avatar.jpg" alt="">
+                </a>
+            </div>
+            
+            <div class="information__description__wrap">
+                <div class="description__wrap">
+                    <div class="information__price">
+                        <h3>$204</h3>
+
+                        <div class="price__likes">
+                            <div class="price__save"><a href="">
+                            <img src="images/item/notlike.png" alt="">
+                            <p>Save</p></a></div>
+                            <div class="price__share"><a href="">
+                            <img src="images/item/share.png" alt="">
+                            <p>Share</p></a></div>
+                        </div>
+                    </div>
+
+                    <div class="information__title">Boots</div>
+
+                    <div class="information__stats">
+                        <div class="stats__firstwrap">
+                            <div class="stats__time">
+                            <img src="images/item/fire.png" alt="">
+                            <p>9 hours ago</p></div>
+                        </div>
+
+                        <div class="stats__wrap">
+                            <div class="stats__views">
+                                <img class="views__image" src="images/item/eye.png" alt="">
+                                <p class="views__count">33</p>
+                            </div>
+
+                            <div class="stats__saves">
+                                <img class="saves__image" src="images/item/stats.png" alt="">
+                                <p class="saves__count">33</p></div>
+                        </div>
+                    </div>
+
+                    <div class="information__description">
+                        Brand new
+                        condition new
+                    </div>
+                </div>
+                
+                <div class="description__devide"></div>
+                
+                <div class="description__author">
+                    <div class="author__wrap">
+                        <div class="author__image">
+                            <img src="images/Avatar.jpg" alt="">
+                        </div>
+                        <div class="author__title">dimas</div>
+                    </div>
+                    
+                    <div class="author__message">
+                        <form class="form__message" action="">
+                            <input type="text">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--END INFORMATION-->
+    
+    <!--START GEO-->
+    
+    <div class="container">
+        <div class="geo__wrap">
+            <div class="geo__title"><span class="name_item">War of the Spark Uncut Foil Sheet Magic Cards</span> <span class="geo__location">In Minsk</span></div>
+            <div class="geo__map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150505.20100745026!2d27.453285002975683!3d53.88476083127504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfd35b1e6ad3%3A0xb61b853ddb570d9!2sMinsk%2C%20Belarus!5e0!3m2!1sen!2sus!4v1575311007943!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+        </div>
+        
+        <div class="share__wrap">
+            <div class="share__title">Share this listing, "<span class="name_item">War of the Spark Uncut Foil Sheet Magic Cards</span>", with your friend</div>
+            
+            <div class="share__links">
+                <ul>
+                    <li><a class="share__facebook"><img src="images/item/facebook.png" alt=""></a></li>
+                    <li><a class="share__twitter"><img src="images/item/twitter.png" alt=""></a></li>
+                    <li><a class="share__vk"><img src="images/item/vk.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!--END GEO-->
+    
+    <!--START SORTMAIN-->
+    
+    <div class="container">
+        <div class="sortmain__wrap">
+            <div class="sortmain__buttons">
+                <ul>
+                    <li><a class="sort__button clicked">Related</a></li>
+                    <li><a class="sort__button">Nearby</a></li>
+                    <li><a class="sort__button">Posted by Dimas</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!--END SORTMAIN-->
+    
+    <!--START MAIN-->
+    
+    <div class="container">
+        <div class="main__wrap">
+            <div class="menu__wrap">
+                <ul class="main__menu">
+                    <li class="menu__item">
+                        <div class="item__image"><a href="#"><img src="images/Avatar.jpg" alt=""></a></div>
+                        
+                        <div class="item__footer">
+                            <div class="item__title">
+                                <p>name</p>
+                            </div>
+
+                            <div class="item__location">
+                                <p>location name</p>
+                            </div>
+
+                            <div class="item__devide"></div>
+
+                            <div class="item__links">
+                                <ul>
+                                    <li><a class="link__share"></a></li>
+                                    <li><a class="link__message"></a></li>
+                                    <li><a class="link__like"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li><li class="menu__item">
+                        <div class="item__image"><a href="#"><img src="images/paper.jpg" alt=""></a></div>
+                        
+                        <div class="item__footer">
+                            <div class="item__title">
+                                <p>name</p>
+                            </div>
+
+                            <div class="item__location">
+                                <p>location name</p>
+                            </div>
+
+                            <div class="item__devide"></div>
+
+                            <div class="item__links">
+                                <ul>
+                                    <li><a class="link__share"></a></li>
+                                    <li><a class="link__message"></a></li>
+                                    <li><a class="link__like"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu__item">
+                        <div class="item__image"><a href="#"><img src="images/Avatar.jpg" alt=""></a></div>
+                        
+                        <div class="item__footer">
+                            <div class="item__title">
+                                <p>name</p>
+                            </div>
+
+                            <div class="item__location">
+                                <p>location name</p>
+                            </div>
+
+                            <div class="item__devide"></div>
+
+                            <div class="item__links">
+                                <ul>
+                                    <li><a class="link__share"></a></li>
+                                    <li><a class="link__message"></a></li>
+                                    <li><a class="link__like"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li><li class="menu__item">
+                        <div class="item__image"><a href="#"><img src="images/paper.jpg" alt=""></a></div>
+                        
+                        <div class="item__footer">
+                            <div class="item__title">
+                                <p>name</p>
+                            </div>
+
+                            <div class="item__location">
+                                <p>location name</p>
+                            </div>
+
+                            <div class="item__devide"></div>
+
+                            <div class="item__links">
+                                <ul>
+                                    <li><a class="link__share"></a></li>
+                                    <li><a class="link__message"></a></li>
+                                    <li><a class="link__like"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu__item">
+                        <div class="item__image"><a href="#"><img src="images/Avatar.jpg" alt=""></a></div>
+                        
+                        <div class="item__footer">
+                            <div class="item__title">
+                                <p>name</p>
+                            </div>
+
+                            <div class="item__location">
+                                <p>location name</p>
+                            </div>
+
+                            <div class="item__devide"></div>
+
+                            <div class="item__links">
+                                <ul>
+                                    <li><a class="link__share"></a></li>
+                                    <li><a class="link__message"></a></li>
+                                    <li><a class="link__like"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li><li class="menu__item">
+                        <div class="item__image"><a href="#"><img src="images/paper.jpg" alt=""></a></div>
+                        
+                        <div class="item__footer">
+                            <div class="item__title">
+                                <p>name</p>
+                            </div>
+
+                            <div class="item__location">
+                                <p>location name</p>
+                            </div>
+
+                            <div class="item__devide"></div>
+
+                            <div class="item__links">
+                                <ul>
+                                    <li><a class="link__share"></a></li>
+                                    <li><a class="link__message"></a></li>
+                                    <li><a class="link__like"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu__item">
+                        <div class="item__image"><a href="#"><img src="images/Avatar.jpg" alt=""></a></div>
+                        
+                        <div class="item__footer">
+                            <div class="item__title">
+                                <p>name</p>
+                            </div>
+
+                            <div class="item__location">
+                                <p>location name</p>
+                            </div>
+
+                            <div class="item__devide"></div>
+
+                            <div class="item__links">
+                                <ul>
+                                    <li><a class="link__share"></a></li>
+                                    <li><a class="link__message"></a></li>
+                                    <li><a class="link__like"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li><li class="menu__item">
+                        <div class="item__image"><a href="#"><img src="images/paper.jpg" alt=""></a></div>
+                        
+                        <div class="item__footer">
+                            <div class="item__title">
+                                <p>name</p>
+                            </div>
+
+                            <div class="item__location">
+                                <p>location name</p>
+                            </div>
+
+                            <div class="item__devide"></div>
+
+                            <div class="item__links">
+                                <ul>
+                                    <li><a class="link__share"></a></li>
+                                    <li><a class="link__message"></a></li>
+                                    <li><a class="link__like"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!--END MAIN-->
+    
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>

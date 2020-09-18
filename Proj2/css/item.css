@@ -1,0 +1,277 @@
+/*START INFORMATION*/
+
+.information__wrap {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 70px 5% 0;
+}
+
+.information__image {
+    width: 40%;
+}
+
+.information__image > a > img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.information__description__wrap {
+    width: 58%;
+}
+
+.information__price {
+    position: relative;
+}
+
+.information__price > h3 {
+    font-size: 40px;
+}
+
+.price__likes {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.price__likes > div{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.price__likes > div > a {
+    text-decoration: none;
+    color: 	rgb(112,128,144);
+}
+
+.price__save > a > img {
+    width: 30px;
+    height: 26px;
+}
+
+.price__share > a > img {
+    width: 30px;
+    height: 30px;
+}
+
+.information__title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.information__stats {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.stats__firstwrap {
+    width: 80%;
+}
+
+.stats__time {
+    display: inline-block;
+    background-color: rgb(176,224,230);
+    height: 25px;
+    vertical-align: top;
+    border-radius: 20px;
+    padding: 3px 8px 5px 5px;
+}
+
+.stats__wrap {
+    width: 20%;
+}
+
+.stats__wrap > div{
+    display: inline-block;
+   
+    background-color: rgb(176,224,230);
+    height: 20px;
+    vertical-align: top;
+    border-radius: 20px;
+    padding: 3px 8px 5px 5px;
+}
+
+.stats__time > p {
+    display: inline;
+}
+
+.views__count {
+    display: inline;
+}
+
+.saves__count {
+    display: inline;
+}
+
+.stats__time > img {
+    width: 16px;
+    height: 16px;
+}
+
+.stats__saves > img {
+    width: 16px;
+    height: 13px;
+}
+
+.stats__views > img {
+    width: 16px;
+    height: 13px;
+}
+
+.information__description {
+    max-height: 250px;
+    height: 250px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.description__devide {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(176,224,230,.3);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.description__author {
+    height: 100px;
+    position: relative;
+}
+
+.author__image > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.author__image {
+    display: inline-block;
+}
+
+.author__title {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+.form__message > input {
+    border: 0 solid #fff;
+    background-color: rgb(176,224,230);
+    width: 300px;
+    height: 30px;
+    font-size: 23px;
+}
+
+/*END INFORMATION*/
+
+/*START GEO*/
+
+.geo__title {
+    margin: 50px 10% 10px;
+    color: rgb(112,128,144);
+}
+
+.geo__map > iframe{
+    height: 300px;
+    width: 95%;
+    margin: 0 2.5%;
+    margin-bottom: 40px; 
+}
+
+/*END GEO*/
+
+/*START SHARELINKS*/
+
+.share__wrap {
+    margin: 20px 20% 100px;
+    font-size: 24px;
+    color: rgb(112,128,144); 
+}
+
+.share__links > ul {
+    display: inline-flex;
+    width: 40%;
+    margin: 0 30%;
+}
+
+.share__links > ul > li {
+    list-style-type: none;
+    width: 33%;
+}
+
+.share__links > ul > li > a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    padding: 8% 0;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.share__facebook { 
+    background-color: #7835e7;
+}
+
+.share__vk {
+    background-color: #5505da;
+}
+
+.share__twitter {
+    background-color: #ae9bce;
+}
+
+.share__facebook > img {
+    width: 14px;
+    height: 26px;
+}
+
+.share__twitter > img {
+    width: 26px;
+    height: 26px;
+    margin: 3% 0;
+}
+
+.share__vk > img {
+    width: 30px;
+    height: 22px;
+    margin: 5% 0;
+}
+
+/*END SHARELINKS*/
+
+/*START SORTMAIN*/
+
+.sortmain__buttons > ul {
+    display: inline-flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.sortmain__buttons > ul > li {
+    list-style-type: none;
+}
+
+.sort__button {
+    color: black;
+    text-decoration: none;
+    background-color: #fff;
+    
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    padding: 5%;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.clicked {
+    color: #fff;
+    background: black;
+}
+
+/*END SORTMAIN*/
